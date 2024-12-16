@@ -1,0 +1,17 @@
+export default {
+  'rule-1': '1.活動開始時間：',
+  'start-time': '2023-09-29 00:00:00(UTC0)',
+  'end-time': '2023-10-05 23:59:59(UTC0)',
+  'rule-2': '2.活動結束時間：',
+  'rule-3': '3.每個幸運禮物送出不同的數量後可以領取不同的獎品',
+  'rule-4': '4.最終解釋權歸Yaame所有',
+  'btn-can-get': '領取',
+  'btn-has-get': '已領取',
+  'toast-get': '獎品已發放至背包',
+  'pulling-text': '下拉刷新',
+  'loosing-text': '鬆開刷新',
+  'loading-text': '加載中',
+  'success-text': '刷新成功',
+  'error-tip': '網路異常',
+  'task-finish': '已獲得全部獎品',
+};

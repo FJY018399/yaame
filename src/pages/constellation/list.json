@@ -1,0 +1,709 @@
+{
+  "CONSTELLATION0": {
+    "backgroundColor": "#4D017B",
+    "index": {
+      "logoImg": {
+        "ar": "https://yaame-static.yaame.io/admin/112444d69346d380c7977638d7b91438.png",
+        "en": "https://yaame-static.yaame.io/admin/95ace742453f9cc4cfef4d859ea2a158.png",
+        "id": "https://yaame-static.yaame.io/admin/1830e8c8153aa1fa1a95d67d4771b5ca.png",
+        "zh-cn": "https://yaame-static.yaame.io/admin/5d4aaa4b27c05a8d8894466a31e4825a.png",
+        "zh-tw": "https://yaame-static.yaame.io/admin/8a27cad9d2cac5b45d3c950e2a5d4148.png"
+      },
+      "rule": "https://yaame-static.yaame.io/admin/ec75be025c1fb4ea851f5628fc97ae76.png",
+      "advocacy": "https://yaame-static.yaame.io/admin/c04f9eb23583088840df37ea24f20a7c.png",
+      "advocacy-style": {
+        "color": "#FDF6FF",
+        "background": "linear-gradient( 90deg, rgba(100,18,164,0) 0%, rgba(100,18,164,0.69) 21%, rgba(100,18,164,0.97) 50%, rgba(100,18,164,0.74) 77%, rgba(100,18,164,0) 100%)"
+      },
+      "guard": "https://yaame-static.yaame.io/admin/c04f9eb23583088840df37ea24f20a7c.png",
+      "guard-name": "https://yaame-static.yaame.io/admin/dbabfb0b95ed679dd8701cca4a5cbd00.png",
+      "guard-name-style": {
+        "color": "#FFFFA6"
+      },
+      "crystal-ball": "https://yaame-static.yaame.io/admin/8f43038d2d77cc3dcca7a83d8ba9b88c.png",
+      "time": "https://yaame-static.yaame.io/admin/36649e1393918d8f07c3c70bf2fb799e.png",
+      "select-constellation": "https://yaame-static.yaame.io/admin/aec0d94a8da35d213af1437c75a24724.png",
+      "reach-constellation": "https://yaame-static.yaame.io/admin/1590bac443ce090ca55c9f15badf5356.png",
+      "icon-style": {
+        "background": "#610599",
+        "border": ".02rem solid #F2DDFF"
+      },
+      "day-style": {
+        "background": "#B542FF"
+      },
+      "not-reach": "https://yaame-static.yaame.io/admin/0c52e94825c80446c72684f87f50663b.png",
+      "award": "https://yaame-static.yaame.io/admin/556e88cfdaa253f7a5951a244c4c5e5d.png",
+      "award-icon": "https://yaame-static.yaame.io/admin/7e37a3a590ab741c613f5b735aed65a1.png",
+      "tab": "https://yaame-static.yaame.io/admin/f48faa253d6a72488033783b7ec4b8dc.png",
+      "active": {
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/6a21efea76252ddcb24654f744563d90.png)",
+        "color": "#FFDE8E"
+      },
+      "choice-box-style": {
+        "background": "#9C3CD6",
+        "border": ".01rem solid #E4D9FF"
+      },
+      "bottom": "https://yaame-static.yaame.io/admin/f31bfed25f20e66c0051cdeca1d670a8.png",
+      "secondary-tab-style": {
+        "background": "#350453"
+      },
+      "bottom-two": "https://yaame-static.yaame.io/admin/998c0a875addd994b85df066dfe90a47.png",
+      "get-button-yes": {
+        "color": "#C46CFF",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/6f18863e2f064dda1c4f306af753cfa7.png)"
+      },
+      "award-win": "https://yaame-static.yaame.io/admin/b44e54d7a4457631fa1d052aa56ef182.png",
+      "span": "https://yaame-static.yaame.io/admin/5306329114dcfbb7b1ca7f2819576c33.png",
+      "select-show-style": {
+        "background": "#4D017B"
+      },
+      "choose-lift": "https://yaame-static.yaame.io/admin/13301a223bef1b1faa1bfd00d81d4d7b.png",
+      "choose-right": "https://yaame-static.yaame.io/admin/741d5c0fdc6748ea24e39d906e1473f3.png",
+      "head-title-style": {
+        "color": "#F7D1FF"
+      },
+      "constellationList": {
+        "virgo": "https://yaame-static.yaame.io/admin/25ab9c66fcdb012d0b89af37222f671e.png",
+        "libra": "https://yaame-static.yaame.io/admin/ce9431d0d3daa4518fa7d89cfc727eaa.png",
+        "scorpio": "https://yaame-static.yaame.io/admin/d87eb8b462c11ff55ca6235a37bbcd41.png",
+        "sagittarius": "https://yaame-static.yaame.io/admin/ad59ae819aaa2dc5472031004d684092.png",
+        "capricorn": "https://yaame-static.yaame.io/admin/6ed4b1f16eaeb7d14bf76cbb5e877e7c.png",
+        "aquarius": "https://yaame-static.yaame.io/admin/3ed3a486e26e28e87f4653f88ff4b504.png",
+        "pisces": "https://yaame-static.yaame.io/admin/4e0b6fb172c053413ba8a9428f8ab8db.png",
+        "aries": "https://yaame-static.yaame.io/admin/8e644d57c74d8ecd1042a29afca73b96.png",
+        "taurus": "https://yaame-static.yaame.io/admin/13e8a53a3f69b614b47e415b2c0602b3.png",
+        "gemini": "https://yaame-static.yaame.io/admin/b7a963959059939e047b67d4692847b1.png",
+        "cancer": "https://yaame-static.yaame.io/admin/68124cfc209c0936a842db595e42a423.png",
+        "leo": "https://yaame-static.yaame.io/admin/25bac3444a36fa2cc8910dcc75abf120.png"
+      },
+      "constellation-span-style": {
+        "color": "#E8C1FF"
+      },
+      "time-title": {
+        "color": "#fff"
+      },
+      "rule-style": {
+        "color": "#fff"
+      },
+      "times-style": {
+        "color": "#fff"
+      },
+      "slide": {
+        "background": "linear-gradient(0deg, #9833E5 0%, #6713CF 100%)"
+      }
+    },
+    "reward": {
+      "rank-list": {
+        "background": "#7115B4",
+        "border": ".02rem solid #F2DDFF"
+      },
+      "receiving-style": {
+        "background": "#5F11AD",
+        "border": ".01rem solid #C588FF"
+      },
+      "name-style": {
+        "color": "#FFDCFF"
+      },
+      "icon-style": {
+        "background": "#610599",
+        "border": ".02rem solid #F2DDFF"
+      },
+      "day-style": {
+        "background": "#B542FF"
+      },
+      "git-button": "https://yaame-static.yaame.io/admin/eb99eeea525984a6e947a055415eeef9.png",
+      "git-button-yes": {
+        "color": "#C46CFF",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/51b2f877fdee513f0981af4708dbc740.png)"
+      },
+      "progress-bar": {
+        "background": "#39015A",
+        "border": ".01rem solid #7C0AC2"
+      },
+      "schedule": {
+        "background": "linear-gradient(0, #FA5DFF 0%, #9136FF 100%)",
+        "border": ".01rem solid #EC84FF"
+      },
+      "task-status": "https://yaame-static.yaame.io/admin/2504320be91f5b2183dd68f0f7c1ef7c.png",
+      "task-status-yes": "https://yaame-static.yaame.io/admin/cba0727331b22217a7d910d945f78eb0.png"
+    },
+    "rank": {
+      "ranking": "https://yaame-static.yaame.io/admin/d413a45e60c4459ce69e43a4bc81b83b.png",
+      "rank-item": "https://yaame-static.yaame.io/admin/78063be709937e16e5c7970e51bf3770.png",
+      "super": "https://yaame-static.yaame.io/admin/df4bbe285247c07d1da07b4ed018bc91.png",
+      "user-info": "https://yaame-static.yaame.io/admin/9d1d4f0ebfe5f7cf1e28b7680c4ec001.png",
+      "user-super": "https://yaame-static.yaame.io/admin/93b6307d4153315a0e5c92c68d70187c.png",
+      "attention": "https://yaame-static.yaame.io/admin/9e0f5d6a247bc7c52e2405305eac3ee1.png",
+      "chat": "https://yaame-static.yaame.io/admin/3880e1fd20d8c0636a5840b553a1b5a4.png",
+      "user-dress-img": "https://yaame-static.yaame.io/admin/640e8a4df521c8543dcf642239edda45.png",
+      "status-img": {
+        "background": "#eeac19"
+      },
+      "on-line": {
+        "background": "#fd61f8"
+      }
+    },
+    "rule": {
+      "icon-style": {
+        "background": "#610599",
+        "border": ".02rem solid #F2DDFF"
+      },
+      "day-style": {
+        "background": "#B542FF"
+      },
+      "reward-item-container": "https://yaame-static.yaame.io/admin/e128564c50f0d16d6c1563ce24dd5a83.png",
+      "rule-container": {
+        "background": "#6f08ae",
+        "border": "0.02rem solid #f3e3ff"
+      },
+      "title-img": "https://yaame-static.yaame.io/admin/f4ece516eab62d3bb08e27d77c4ac55e.png",
+      "secondary-tab": {
+        "color": "#DB9FFF",
+        "background": "#6702A4"
+      },
+      "slide": {
+        "background": "linear-gradient( 0deg, #9402D6 0%, #E467FF 100%)"
+      },
+      "secondary-tab-in": {
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "CONSTELLATION1": {
+    "backgroundColor": "#471E03",
+    "index": {
+      "logoImg": {
+        "ar": "https://yaame-static.yaame.io/admin/f67aca78bb5ea61d74c30877863ac1ae.png",
+        "en": "https://yaame-static.yaame.io/admin/fb58e4cf752cc406f4ac6845c85f4c68.png",
+        "id": "https://yaame-static.yaame.io/admin/7796b5c6aec82a377c6d56afb57f44cf.png",
+        "zh-cn": "https://yaame-static.yaame.io/admin/474bf2bffcc29a4f16f8935fc3521770.png",
+        "zh-tw": "https://yaame-static.yaame.io/admin/474bf2bffcc29a4f16f8935fc3521770.png"
+      },
+      "rule": "https://yaame-static.yaame.io/admin/2df119e6c0b8ef874a8d2188b68b0ab1.png",
+      "advocacy": "https://yaame-static.yaame.io/admin/3ba69241d57d099a51c963a35e3804ca.png",
+      "advocacy-style": {
+        "color": "#FFFFA6",
+        "background": "linear-gradient( 90deg, rgba(146,69,2,0) 0%, #803300 50%, rgba(146,73,1,0) 100%)"
+      },
+      "guard": "https://yaame-static.yaame.io/admin/3ba69241d57d099a51c963a35e3804ca.png",
+      "guard-name": "https://yaame-static.yaame.io/admin/6c8896f493e40269f16f999a7c2b2d17.png",
+      "guard-name-style": {
+        "color": "#FFFFA6"
+      },
+      "crystal-ball": "https://yaame-static.yaame.io/admin/485bf7c4a6384cc8b282f00361c2f280.png",
+      "time": "https://yaame-static.yaame.io/admin/f844851d4f2e2f55edc3eb63cb3533fd.png",
+      "select-constellation": "https://yaame-static.yaame.io/admin/4e62800c6adbf340faec2e299d3dec6c.png",
+      "reach-constellation": "https://yaame-static.yaame.io/admin/c168f82194c7f87d1947540b087c512f.png",
+      "icon-style": {
+        "background": "#481C03",
+        "border": ".02rem solid #EDD29F"
+      },
+      "day-style": {
+        "background": "#C0580C"
+      },
+      "not-reach": "https://yaame-static.yaame.io/admin/cf4a2e2e48fc926c3df6cdf1be5d27aa.png",
+      "award": "https://yaame-static.yaame.io/admin/2ffe1d9687512d6363909e00c811f10f.png",
+      "award-icon": "https://yaame-static.yaame.io/admin/7bdb3b390e4234eec96598f860e16460.png",
+      "tab": "https://yaame-static.yaame.io/admin/c129a08d5528c356cb135bd628b250ab.png",
+      "active": {
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/b3703a512a6bf92e9c64fe011f584804.png)",
+        "color": "#8F3E0D"
+      },
+      "choice-box-style": {
+        "background": "#7E390F",
+        "border": ".01rem solid #FFEFAD"
+      },
+      "bottom": "https://yaame-static.yaame.io/admin/b82cef1ca0de7701d34b44481b507629.png",
+      "secondary-tab-style": {
+        "background": "#381501"
+      },
+      "bottom-two": "https://yaame-static.yaame.io/admin/b695cef297808ae1b370b9f979021b3e.png",
+      "get-button-yes": {
+        "color": "#FFD56C",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/fc7e178731d61356e29cc4555a91505a.png)"
+      },
+      "award-win": "https://yaame-static.yaame.io/admin/fd934210fb37b03ca91921e68f428434.png",
+      "span": "https://yaame-static.yaame.io/admin/faf6fd1cb471f0486849028ef06ce937.png",
+      "select-show-style": {
+        "background": "#562403"
+      },
+      "choose-lift": "https://yaame-static.yaame.io/admin/f2b4762a25c183beabb34e06ccdf663f.png",
+      "choose-right": "https://yaame-static.yaame.io/admin/f9e89368a39b68fb8abf26f30ee95595.png",
+      "head-title-style": {
+        "color": "#FFEED1"
+      },
+      "constellationList": {
+        "virgo": "https://yaame-static.yaame.io/admin/8f65dfe776d25c0d769f7254963290d1.png",
+        "libra": "https://yaame-static.yaame.io/admin/eb47098291008a0f80be0fbb85f52589.png",
+        "scorpio": "https://yaame-static.yaame.io/admin/d84a424d71dd834fa231f8cce7cf3379.png",
+        "sagittarius": "https://yaame-static.yaame.io/admin/a9a182adb3c2573821c2d0571dd46bda.png",
+        "capricorn": "https://yaame-static.yaame.io/admin/ee02489612e70a6b32eea4c34d4c4823.png",
+        "aquarius": "https://yaame-static.yaame.io/admin/9295cdd9a2362f769767979a38b8c53c.png",
+        "pisces": "https://yaame-static.yaame.io/admin/704290d12f6d03ddf5910d99e68d3870.png",
+        "aries": "https://yaame-static.yaame.io/admin/1359788e9d5b1fcc90eb46cae8cffa22.png",
+        "taurus": "https://yaame-static.yaame.io/admin/5375f2c04d9670967885c32070744ea8.png",
+        "gemini": "https://yaame-static.yaame.io/admin/086a2ea17e3713f13adee3d9ac443e05.png",
+        "cancer": "https://yaame-static.yaame.io/admin/f65f9bc7cffe2dedc572240782d08dfe.png",
+        "leo": "https://yaame-static.yaame.io/admin/bcf05377fa70a9998eeeb65807e0fa37.png"
+      },
+      "constellation-span-style": {
+        "color": "#FFDD68"
+      },
+      "time-title": {
+        "color": "#852409"
+      },
+      "rule-style": {
+        "color": "#852409"
+      },
+      "times-style": {
+        "color": "#FDF7C1"
+      },
+      "slide": {
+        "background": "linear-gradient(0deg, #E59033 0%, #CF3A13 100%)"
+      }
+    },
+    "reward": {
+      "rank-list": {
+        "background": "#702D08",
+        "border": ".02rem solid #F2DDFF"
+      },
+      "receiving-style": {
+        "background": "#381501",
+        "border": ".01rem solid #FFD092"
+      },
+      "name-style": {
+        "color": "#FFE0C1"
+      },
+      "icon-style": {
+        "background": "#481C03",
+        "border": ".02rem solid #FFCE81"
+      },
+      "day-style": {
+        "background": "#C0580C"
+      },
+      "git-button": "https://yaame-static.yaame.io/admin/ff721f2bff9d0a04e1ec033c4b316fe8.png",
+      "git-button-yes": {
+        "color": "#FFD56C",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/d5ea55b468226eb9d3b58a7799f49e01.png)"
+      },
+      "progress-bar": {
+        "background": "#381501",
+        "border": ".01rem solid #915026"
+      },
+      "schedule": {
+        "background": "linear-gradient( , #FFCC5D 0%, #FF5B1E 100%)",
+        "border": ".01rem solid #EC84FF"
+      },
+      "task-status": "https://yaame-static.yaame.io/admin/a4bd7e13412b4b67cb45a44d0a2d9136.png",
+      "task-status-yes": "https://yaame-static.yaame.io/admin/0e13cd3cc54a36d198c3f81514632d2c.png"
+    },
+    "rank": {
+      "ranking": "https://yaame-static.yaame.io/admin/bae810278aee1de4c6024884d1ba7662.png",
+      "rank-item": "https://yaame-static.yaame.io/admin/99a59486cfcea01db7ba397de829262a.png",
+      "super": "https://yaame-static.yaame.io/admin/0fe9a7aecb839d34256126562a05e31b.png",
+      "user-info": "https://yaame-static.yaame.io/admin/1966bcdb581302360a871ba3ccf1a385.png",
+      "user-super": "https://yaame-static.yaame.io/admin/ae4eca145cb3aab97cbc8783ea775190.png",
+      "attention": "https://yaame-static.yaame.io/admin/2339cffa1bea675c26f03e4938251b72.png",
+      "chat": "https://yaame-static.yaame.io/admin/0ae1781a0cc6a41d0f59327070b0e191.png",
+      "user-dress-img": "https://yaame-static.yaame.io/admin/e0562342f5b4133dee3b39b49bcf531e.png",
+      "status-img": {
+        "background": "#AF3FFF"
+      },
+      "on-line": {
+        "background": "#FD61F8"
+      }
+    },
+    "rule": {
+      "icon-style": {
+        "background": "#481C03",
+        "border": ".02rem solid #FFCE81"
+      },
+      "day-style": {
+        "background": "#C0580C"
+      },
+      "reward-item-container": "https://yaame-static.yaame.io/admin/7bd2c54aa4a63cac9e1bd6b15e506b40.png",
+      "rule-container": {
+        "background": "#702D08",
+        "border": "0.02rem solid #FFD092"
+      },
+      "title-img": "https://yaame-static.yaame.io/admin/412d59bac56fc31b856e00eaf0c124fa.png",
+      "secondary-tab": {
+        "color": "#FFCEA0",
+        "background": "#563125"
+      },
+      "slide": {
+        "background": "linear-gradient( 0deg, #E77C04 0%, #FFBE72 100%)"
+      },
+      "secondary-tab-in": {
+        "color": "#702121"
+      }
+    }
+  },
+  "CONSTELLATION2": {
+    "backgroundColor": "#41007D",
+    "index": {
+      "logoImg": {
+        "ar": "https://yaame-static.yaame.io/admin/2e323526dbf83b2b5248524eed7a82b8.png",
+        "en": "https://yaame-static.yaame.io/admin/81fd1e6be80720356d845a512890770e.png",
+        "id": "https://yaame-static.yaame.io/admin/09c4d42e8918cb8e6b725514238b9d05.png",
+        "zh-cn": "https://yaame-static.yaame.io/admin/7ea643e42f9abdcc06c9e7f565b7aaf0.png",
+        "zh-tw": "https://yaame-static.yaame.io/admin/fece17fbf6f3fc2113919f00cb965795.png"
+      },
+      "advocacy-bg": {
+        "background": "url(https://yaame-static.yaame.io/admin/1452dee3ee530dd9cc383db647e1c38b.png) no-repeat",
+        "background-size": "contain"
+      },
+      "rule": "https://yaame-static.yaame.io/admin/5543409a4c3c18004ad238dc617d6a73.png",
+      "advocacy": "https://yaame-static.yaame.io/admin/28d6ed6a8ac62161152cf05dc308323b.png",
+      "advocacy-style": {
+        "color": "#FFFFA6",
+        "background": "linear-gradient( 90deg, rgba(82,2,146,0) 0%, #260080 47%, rgba(82,2,146,0) 100%)"
+      },
+      "guard": "https://yaame-static.yaame.io/admin/3ba69241d57d099a51c963a35e3804ca.png",
+      "guard-name": "https://yaame-static.yaame.io/admin/244f38190e9d70b704e5b109ddb07f12.png",
+      "guard-name-style": {
+        "color": "#FFFFA6"
+      },
+      "crystal-ball": "https://yaame-static.yaame.io/admin/b209c0b9dd73e64a787cc7b3f4d5279e.png",
+      "time": "https://yaame-static.yaame.io/admin/22891256a240244ca3e7e1bf99d69a2d.png",
+      "select-constellation": "https://yaame-static.yaame.io/admin/ea4a203651f1df7cea05b1080461b7e8.png",
+      "reach-constellation": "https://yaame-static.yaame.io/admin/4d7210546dbbf552440cc3d11e604464.png",
+      "icon-style": {
+        "background": "#431791",
+        "border": ".02rem solid #FFCE81"
+      },
+      "day-style": {
+        "background": "#0C87D4"
+      },
+      "not-reach": "https://yaame-static.yaame.io/admin/12dcaa8329195ba0f313c68020e7d421.png",
+      "award": "https://yaame-static.yaame.io/admin/a1b89f646015219415e04bcd5ceba60c.png",
+      "award-icon": "https://yaame-static.yaame.io/admin/f3b16b8ff34214b4544b45fdbfbfb0af.png",
+      "tab": "https://yaame-static.yaame.io/admin/fa6aaf2de95515c54476da24a8a774a5.png",
+      "active": {
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/95f9b8cb6be92c5aa3c1c90eb869f0c3.png)",
+        "color": "#FFDEA7"
+      },
+      "choice-box-style": {
+        "background": "#4410A4",
+        "border": ".01rem solid #FFEFAD"
+      },
+      "bottom": "https://yaame-static.yaame.io/admin/930ebe5306575e14a7d2a69858413585.png",
+      "secondary-tab-style": {
+        "background": "#330062"
+      },
+      "bottom-two": "https://yaame-static.yaame.io/admin/b695cef297808ae1b370b9f979021b3e.png",
+      "get-button-yes": {
+        "color": "#FFD56C",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/c65a4a9a9b43c2373fbd8fc4b413e56f.png)"
+      },
+      "award-win": "https://yaame-static.yaame.io/admin/700100578e54fbdb28fa9cae54b42c50.png",
+      "span": "https://yaame-static.yaame.io/admin/faf6fd1cb471f0486849028ef06ce937.png",
+      "select-show-style": {
+        "background": "#5F28CA"
+      },
+      "choose-lift": "https://yaame-static.yaame.io/admin/f2b4762a25c183beabb34e06ccdf663f.png",
+      "choose-right": "https://yaame-static.yaame.io/admin/f9e89368a39b68fb8abf26f30ee95595.png",
+      "head-title-style": {
+        "color": "#FFEED1"
+      },
+      "constellationList": {
+        "virgo": "https://yaame-static.yaame.io/admin/ceb0b9e17d24029f490f003dbd7fe5b6.png",
+        "libra": "https://yaame-static.yaame.io/admin/093d7f5e00bc055e60447a0e8b369312.png",
+        "scorpio": "https://yaame-static.yaame.io/admin/92f77de6620671bbd479da3bf9cc3d0c.png",
+        "sagittarius": "https://yaame-static.yaame.io/admin/0ab63eba9be9d41410296eaafc72eca6.png",
+        "capricorn": "https://yaame-static.yaame.io/admin/76c36db56c930b617df5f3fd11a333f7.png",
+        "aquarius": "https://yaame-static.yaame.io/admin/57d05287cb74b84d26eaf87a61789e2f.png",
+        "pisces": "https://yaame-static.yaame.io/admin/5c59a1f9a2d571938b6900f93d8a8f3b.png",
+        "aries": "https://yaame-static.yaame.io/admin/0a0881225123e6d8feb974a37b88d19b.png",
+        "taurus": "https://yaame-static.yaame.io/admin/136b91cfcbae66c31a969eca831849ac.png",
+        "gemini": "https://yaame-static.yaame.io/admin/072944845fd8be4f0a6ef64dd27b9ed6.png",
+        "cancer": "https://yaame-static.yaame.io/admin/aac0874300dce4cfd9075b67c66953e0.png",
+        "leo": "https://yaame-static.yaame.io/admin/cf69849358b0c212a522fc764573a6a2.png"
+      },
+      "constellation-span-style": {
+        "color": "#EDD7FF"
+      },
+      "time-title": {
+        "color": "#FDE5FF"
+      },
+      "rule-style": {
+        "color": "#FFDEFF"
+      },
+      "times-style": {
+        "color": "#FDF7C1"
+      },
+      "slide": {
+        "background": "linear-gradient(0deg, #5433E5 0%, #8B13CF 100%)"
+      }
+    },
+    "reward": {
+      "rank-list": {
+        "background": "#5718BD",
+        "border": ".02rem solid #FFD092"
+      },
+      "receiving-style": {
+        "background": "#381501",
+        "border": ".01rem solid #FFD092"
+      },
+      "name-style": {
+        "color": "#FFE0C1"
+      },
+      "icon-style": {
+        "background": "#431791",
+        "border": ".02rem solid #FFCE81"
+      },
+      "day-style": {
+        "background": "#0C87D4"
+      },
+      "git-button": "https://yaame-static.yaame.io/admin/bc8ce2a89fd1e38053226b98b4d86b77.png",
+      "git-button-yes": {
+        "color": "#FFD56C !important",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/1e4b075684a4d7bdcb47090d65aca1e8.png)"
+      },
+      "progress-bar": {
+        "background": "#360267",
+        "border": ".01rem solid #7417C9"
+      },
+      "schedule": {
+        "background": "linear-gradient( 90deg, #584AFF 0%, #B577FF 100%)",
+        "border": ".01rem solid #FFE384"
+      },
+      "receiving-schedule": {
+        "background": "linear-gradient( 180deg, #FFF4AE 0%, #F88812 100%)",
+        "border": ".01rem solid #FDD377"
+      },
+      "remain-schedule": {
+        "background": "linear-gradient( 180deg, #79FFF1 0%, #0930FF 100%)",
+        "border": ".01rem solid #FDD377"
+      },
+      "task-status": "https://yaame-static.yaame.io/admin/a4bd7e13412b4b67cb45a44d0a2d9136.png",
+      "task-status-yes": "https://yaame-static.yaame.io/admin/0e13cd3cc54a36d198c3f81514632d2c.png"
+    },
+    "rank": {
+      "ranking": "https://yaame-static.yaame.io/admin/0a348d088491b86b6b11171564acc1f3.png",
+      "rank-item": "https://yaame-static.yaame.io/admin/197a59988c8ac33f6d45b6ed3cc0c7f1.png",
+      "super": "https://yaame-static.yaame.io/admin/a51f4eb7cd445bd42e48c062d3cbd9c5.png",
+      "user-info": "https://yaame-static.yaame.io/admin/c2867c7413c62d412d33006350c9d162.png",
+      "user-super": "https://yaame-static.yaame.io/admin/3687a7311d61a5e418f0ecba416b7ed0.png",
+      "attention": "https://yaame-static.yaame.io/admin/2339cffa1bea675c26f03e4938251b72.png",
+      "chat": "https://yaame-static.yaame.io/admin/0ae1781a0cc6a41d0f59327070b0e191.png",
+      "user-dress-img": "https://yaame-static.yaame.io/admin/e0562342f5b4133dee3b39b49bcf531e.png",
+      "status-img": {
+        "background": "#AF3FFF"
+      },
+      "on-line": {
+        "background": "#FD61F8"
+      }
+    },
+    "rule": {
+      "icon-style": {
+        "background": "#431791",
+        "border": ".02rem solid #FFCE81"
+      },
+      "day-style": {
+        "background": "#0C87D4"
+      },
+      "reward-item-container": "https://yaame-static.yaame.io/admin/6a4e60f5305f7c8d6e2f2f3018c77dd5.png",
+      "rule-container": {
+        "background": "#5404B1",
+        "border": "0.02rem solid #FFD092"
+      },
+      "title-img": "https://yaame-static.yaame.io/admin/c3266d1c7584037e8707340f56134349.png",
+      "secondary-tab": {
+        "color": "#8527DC",
+        "background": "#330062"
+      },
+      "slide": {
+        "background": "linear-gradient( 0deg, #6304E7 0%, #9A72FF 100%)"
+      },
+      "secondary-tab-in": {
+        "color": "#FFFFFF"
+      }
+    }
+  },
+  "CONSTELLATION3": {
+    "backgroundColor": "#7F3717",
+    "index": {
+      "logoImg": {
+        "ar": "https://yaame-static.yaame.io/admin/620e2fbdfde007d85782958ac1b137fd.png",
+        "en": "https://yaame-static.yaame.io/admin/dcaf53681f6a1f3728bee84f29923965.png",
+        "id": "https://yaame-static.yaame.io/admin/4f28d3af9d012aa1321ecb26a8c52692.png",
+        "zh-cn": "https://yaame-static.yaame.io/admin/644f53399b750b93922cd9308e9eb97c.png",
+        "zh-tw": "https://yaame-static.yaame.io/admin/644f53399b750b93922cd9308e9eb97c.png"
+      },
+      "rule": "https://yaame-static.yaame.io/admin/e82063522104066add5ecef5fe2d25d5.png",
+      "advocacy": "https://yaame-static.yaame.io/admin/28d6ed6a8ac62161152cf05dc308323b.png",
+      "advocacy-style": {
+        "color": "#FFFFA6",
+        "background": "linear-gradient( 90deg, rgba(146,69,2,0) 0%, #803300 50%, rgba(146,73,1,0) 100%)"
+      },
+      "guard": "https://yaame-static.yaame.io/admin/3ba69241d57d099a51c963a35e3804ca.png",
+      "guard-name": "https://yaame-static.yaame.io/admin/6c8896f493e40269f16f999a7c2b2d17.png",
+      "guard-name-style": {
+        "color": "#FFFFA6"
+      },
+      "crystal-ball": "https://yaame-static.yaame.io/admin/151fbe484684fbb2e221e1859dc87f8f.png",
+      "crystal-ball-style": {
+        "color": "#FBF4FF"
+      },
+      "time": "https://yaame-static.yaame.io/admin/eeca635bda08c1035af35aa961362a86.png",
+      "select-constellation": "https://yaame-static.yaame.io/admin/82312cf3b695da80783009856a1a334e.png",
+      "reach-constellation": "https://yaame-static.yaame.io/admin/3bd6ab41ea20b0627a80c527dc70646a.png",
+      "icon-style": {
+        "background": "#852900",
+        "border": ".02rem solid #F9EDFF"
+      },
+      "day-style": {
+        "background": "#E85C00"
+      },
+      "not-reach": "https://yaame-static.yaame.io/admin/8a4a2c421d5657e5745caabced76612b.png",
+      "award": "https://yaame-static.yaame.io/admin/5add07df7f3c2f9f800061f65f788750.png",
+      "award-icon": "https://yaame-static.yaame.io/admin/0349564683b9fa7d366b22070c6e7b67.png",
+      "tab": "https://yaame-static.yaame.io/admin/ce593a87ced2a7e37a870dfcf099a7a5.png",
+      "active": {
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/639ab5bdb6aa534215822e52fe6faa06.png)",
+        "color": "#8B2601"
+      },
+      "choice-box-style": {
+        "background": "#9E3600",
+        "border": ".01rem solid #F8E4FF"
+      },
+      "bottom": "https://yaame-static.yaame.io/admin/b82cef1ca0de7701d34b44481b507629.png",
+      "secondary-tab-style": {
+        "background": "#602106"
+      },
+      "bottom-two": "https://yaame-static.yaame.io/admin/b695cef297808ae1b370b9f979021b3e.png",
+      "get-button-yes": {
+        "color": "#F9EDFF",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/a9814e9c882d324beff092f421f28e8b.png)"
+      },
+      "award-win": "https://yaame-static.yaame.io/admin/c5196c11e84852324842d4d4ffc0383d.png",
+      "span": "https://yaame-static.yaame.io/admin/faf6fd1cb471f0486849028ef06ce937.png",
+      "select-show-style": {
+        "background": "#7F3717"
+      },
+      "choose-lift": "https://yaame-static.yaame.io/admin/f2b4762a25c183beabb34e06ccdf663f.png",
+      "choose-right": "https://yaame-static.yaame.io/admin/f9e89368a39b68fb8abf26f30ee95595.png",
+      "head-title-style": {
+        "color": "#FFEED1"
+      },
+      "constellationList": {
+        "virgo": "https://yaame-static.yaame.io/admin/8f65dfe776d25c0d769f7254963290d1.png",
+        "libra": "https://yaame-static.yaame.io/admin/eb47098291008a0f80be0fbb85f52589.png",
+        "scorpio": "https://yaame-static.yaame.io/admin/d84a424d71dd834fa231f8cce7cf3379.png",
+        "sagittarius": "https://yaame-static.yaame.io/admin/a9a182adb3c2573821c2d0571dd46bda.png",
+        "capricorn": "https://yaame-static.yaame.io/admin/4935b8d1f5f6fcb14d37e122830c3e62.png",
+        "aquarius": "https://yaame-static.yaame.io/admin/9295cdd9a2362f769767979a38b8c53c.png",
+        "pisces": "https://yaame-static.yaame.io/admin/704290d12f6d03ddf5910d99e68d3870.png",
+        "aries": "https://yaame-static.yaame.io/admin/1359788e9d5b1fcc90eb46cae8cffa22.png",
+        "taurus": "https://yaame-static.yaame.io/admin/5375f2c04d9670967885c32070744ea8.png",
+        "gemini": "https://yaame-static.yaame.io/admin/086a2ea17e3713f13adee3d9ac443e05.png",
+        "cancer": "https://yaame-static.yaame.io/admin/f65f9bc7cffe2dedc572240782d08dfe.png",
+        "leo": "https://yaame-static.yaame.io/admin/bcf05377fa70a9998eeeb65807e0fa37.png"
+      },
+      "constellation-span-style": {
+        "color": "#FFDD68"
+      },
+      "time-title": {
+        "color": "#852409"
+      },
+      "rule-style": {
+        "color": "#852409"
+      },
+      "times-style": {
+        "color": "#FDF7C1"
+      },
+      "slide": {
+        "background": "linear-gradient(0deg, #E59033 0%, #CF3A13 100%)"
+      }
+    },
+    "reward": {
+      "rank-list": {
+        "background": "#772906",
+        "border": ".02rem solid #FFD092"
+      },
+      "receiving-style": {
+        "background": "#381501",
+        "border": ".01rem solid #FFD092"
+      },
+      "name-style": {
+        "color": "#FFE0C1"
+      },
+      "icon-style": {
+        "background": "#602106",
+        "border": ".02rem solid #F9EDFF"
+      },
+      "day-style": {
+        "background": "#E85C00"
+      },
+      "git-button": "https://yaame-static.yaame.io/admin/ff721f2bff9d0a04e1ec033c4b316fe8.png",
+      "git-button-yes": {
+        "color": "##FFD56C !important",
+        "backgroundImage": "url(https://yaame-static.yaame.io/admin/3578e88a068719641dcaeb43e5ebf428.png)"
+      },
+      "progress-bar": {
+        "background": "#381501",
+        "border": ".01rem solid #915026"
+      },
+      "schedule": {
+        "background": "linear-gradient( 90deg, #FFCC5D 0%, #FF5B1E 100%)",
+        "border": ".01rem solid #FFE384"
+      },
+      "receiving-schedule": {
+        "background": "linear-gradient( 180deg, #FFF4AE 0%, #F88812 100%)",
+        "border": ".01rem solid #FDD377"
+      },
+      "remain-schedule": {
+        "background": "linear-gradient( 180deg, #FF79FF 0%, #AB09FF 100%)",
+        "border": ".01rem solid #FDD377"
+      },
+      "task-status": "https://yaame-static.yaame.io/admin/a4bd7e13412b4b67cb45a44d0a2d9136.png",
+      "task-status-yes": "https://yaame-static.yaame.io/admin/0e13cd3cc54a36d198c3f81514632d2c.png"
+    },
+    "rank": {
+      "ranking": "https://yaame-static.yaame.io/admin/19e12b0c8cea3261f348c0d10667a862.png",
+      "rank-item": "https://yaame-static.yaame.io/admin/0a312a323c4aff7bf98dfa214a06b31d.png",
+      "super": "https://yaame-static.yaame.io/admin/09024e465f268f3890cd5b9c3d42471c.png",
+      "user-info": "https://yaame-static.yaame.io/admin/ffd7bb11f3745544c710aefe2c143901.png",
+      "user-super": "https://yaame-static.yaame.io/admin/8bd5af13dbe30260dae897fb46e67a3d.png",
+      "attention": "https://yaame-static.yaame.io/admin/66f77510e87799cf78e1c90879ed6306.png",
+      "chat": "https://yaame-static.yaame.io/admin/59f403229e75fbb3af124a779feeaf87.png",
+      "user-dress-img": "https://yaame-static.yaame.io/admin/f303be47536067178e8f26488c53c3ae.png",
+      "status-img": {
+        "background": "#AF3FFF"
+      },
+      "on-line": {
+        "background": "#FD61F8"
+      },
+      "lack": {
+        "background": "url(https://yaame-static.yaame.io/admin/93c8100be5e0a32b735f93890b6df0ee.png) no-repeat",
+        "backgroundSize": "contain"
+      }
+    },
+    "rule": {
+      "icon-style": {
+        "background": "#602106",
+        "border": ".02rem solid #FBEBFF"
+      },
+      "day-style": {
+        "background": "#E85C00"
+      },
+      "reward-item-container": "https://yaame-static.yaame.io/admin/9c6d7b4eb136798eaf133bf6561abd81.png",
+      "rule-container": {
+        "background": "#702D08",
+        "border": "0.02rem solid #FFD092"
+      },
+      "title-img": "https://yaame-static.yaame.io/admin/19b78f631f0e821f249987cdea8416f3.png",
+      "secondary-tab": {
+        "color": "#FFCEA0",
+        "background": "#602106"
+      },
+      "slide": {
+        "background": "linear-gradient( 0deg, #E77C04 0%, #FFBE72 100%)"
+      },
+      "secondary-tab-in": {
+        "color": "#702121"
+      }
+    }
+  }
+}

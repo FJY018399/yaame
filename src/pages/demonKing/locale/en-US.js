@@ -1,0 +1,117 @@
+export default {
+    defeatDemonKing: 'Defeat the Great Devil King',
+    demonKing: 'Devil',
+    weapon: 'Weapon',
+    ranking: 'Ranking',
+    itchingPerson: 'Sames someone is scratching me...',
+    runAway: 'Hurry run...mysteric power in the body is waking up...',
+    foolishHumans: 'Stupid human person...do you guys wake me up... ',
+    angry: 'I am angry...you guys will in danger...',
+    boring: 'Too boring... No one is powerful...',
+    goodLuck: 'Go fighting...or nothing is funny...',
+    strongerNextWeek: 'Next week we will get stronger...',
+    luckyVictory: 'You are lucky to win...',
+    rewards: 'Rewards',
+    records: 'Record',
+    currentHealth: 'Current Volume',
+    remainingHealth: '7% last',
+    dealtDamage: 'Hurt already',
+    attackOnce: 'Attack once',
+    attackTenTimes: 'Attack 10 times',
+    insufficientWeapons: 'Weapon is not enough, please get some first',
+    consumeDiamonds: 'Are you sure to consume{0}diamonds to buy{1}gem sword',
+    consumeDiamonds2: 'Are you sure to consume{0}diamonds to buy{1}pure crystal',
+
+
+    noPrompt: 'No notification anymore',
+    todayObtained: 'Received{0}/{1} today',
+    giftsFull: 'Can receive 1 after sending gifts valued 300 diamonds, max 500 could be received every day',
+    randomDamage: '20-100 points could be made randomly by each attack, their is an opportunity to get gifts or dressup',
+    todayPurchases: 'Today received buy{0}/99999',
+    buyWithFiftyDiamonds: 'It takes 50 diamonds to buy 1, each day could receive 99999 max',
+    guaranteedGift: '5-30 points could be made randomly by each attack, there must be gifts',
+    buyWithHundredDiamonds: 'It takes 100 diamonds to buy 1, each day could receive 99999 max',
+    crystalDamage: '20-100 points could be made randomly by each attack, there must be gifts',
+    dealDamage: 'Hurt',
+    totalDamage: 'Hurt points',
+    obtainRewards: 'Receive rewards',
+    gameRules: 'Rules',
+    heroBoard: 'Hero Ranking',
+    damageBoard: 'Hurt Ranking',
+    demonKingForms: 'Devil appearance',
+    highestDamage: 'Top hurt',
+    killTime: 'Attack time',
+    fullHealth: 'Full volume status',
+    zombieForm: 'Devil-zombie appearance',
+    vampireForm: 'Devil-vampire appearance',
+    finalForm: 'Devil-devil appearance',
+    laserCannonReward: 'Laser gun attacking rewards',
+    gemSwordReward: 'Gem sword attacking rewards',
+    crystalReward: 'Crystal attacking rewards：',
+    winningRecords: 'Rewards record',
+    notAttackedDemonKing: 'You did not attack the devil before',
+    damageRewards: 'Hurt rewards',
+    activityEndRewards: 'Top 10 of hurt ranking will receive different rewards after the event',
+    firstPlace: 'Top 1',
+    secondPlace: 'Top 2',
+    thirdPlace: 'Top 3',
+    sixthToTenthPlace: 'Top 6-10',
+    activityRules: 'Rules',
+    activityTime: '1. Event time: 0:00:00 every Monday, users could receive the weapons after finishing the tasks and use them to attack, users may have chances to win rewards',
+    demonKingFormsInfo: '2. There will be 3 kinds of devils, different devil has different volume, when the volume of each devil be 0, game over',
+    weaponsInfo: '3. There are also 3 kinds of weapons, way to receive and attacking results are as follows:',
+    laserCannon: 'Laser gun',
+    gemSword: 'Gem sword',
+    crystal: 'Crystal',
+    obtainMethods: 'Way to receive',
+    giftObtained: 'Sending gifts receives',
+    diamondPurchase: 'Buy by diamonds',
+    damageValue: 'Hurt points',
+    differentFormsRewards: '4. Attack different Devil to win different rewards',
+    topThreeDamageRewards: '5. Top 3 of Hurt ranking could receive different rewards',
+    finalInterpretation: 'Yaame reserves the final interpretation of the event',
+    congratulations: 'Congrats that your hurt points are the most in the {0} devil attack event, rewards have been sent to your backpack',
+
+    'pullingText': 'Pull down to refresh',
+    'loosingText': 'Loosen to refresh',
+    'loadingText': 'Loading',
+    'successText': 'Refresh success',
+
+    Cancel: 'Cancel',
+    Confirm: 'Confirm',
+
+    // 奖励已放入背包
+    rewardInBag: 'Rewards have been sent to your backpack',
+    // 再试一次
+    tryAgain: 'Please try again',
+    // 下次一定中奖
+    nextTime: 'You will win definitely next time',
+
+    //钻石余额不足，请先去充值
+    insufficientDiamonds: 'Diamonds are not sufficient, please recharge first',
+
+    // 去充值
+    goToRecharge: 'Go to recharge',
+
+    rankSort: 'Ranking',
+    nickName: 'Nickname',
+    hurtNum: 'Hurt',
+
+    monsterDead: 'The Great Devil King was defeated, please come next week',
+
+    emptyList: 'No one is in the ranking',
+
+    // 没有获得奖品
+    noRewards: 'Oop, you did not win any rewards',
+
+    top1Text: 'Top 1 Warrior',
+    top2Text: 'Top 2 Warrior',
+    top3Text: 'Top 3 Warrior',
+    top4Text: 'Top 4-10 Warrior',
+    GoldenDragon: 'Golden Dragon',
+
+    day: 'Day',
+
+    activityEnd: 'This event will only online ',
+    activityEndTime: 'Friday to Sunday of each week',
+};

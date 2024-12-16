@@ -1,0 +1,18 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/pages/contribution/locale",
+        "src/pages/diamond_record/locale",
+        "src/pages/dress_up_center/locale",
+        "src/pages/levelPrivileges/locale",
+        "src/pages/myReward/locale",
+        "src/pages/privacy_policy/locale",
+        "src/pages/reward/locale",
+        "src/pages/saw/locale",
+        "src/pages/user_agreement/locale"
+    ],
+    "cSpell.words": [
+        "Adha",
+        "yaame"
+    ],
+    "vue-i18n.i18nPaths": "src\\lib\\i18n,src\\history\\AllSaintsDayReward\\locale,src\\history\\AllSaintsDay\\locale,src\\history\\Christmas\\locale,src\\pages\\AbundantHarvest\\locale,src\\pages\\AgencyRevenue\\locale,src\\pages\\airwallex_payment\\locale,src\\pages\\AprilFoolsDay\\locale,src\\pages\\bigWinner\\locale,src\\pages\\ChatMyGuild\\locale,src\\pages\\constellation\\locale,src\\pages\\continue\\locale,src\\pages\\cp\\locale,src\\pages\\contribution\\locale,src\\pages\\diamondRank\\locale,src\\pages\\demonKing\\locale,src\\pages\\dress_up_center\\locale,src\\pages\\EidAlAdha\\locale,src\\pages\\EidLuckyDraw\\locale,src\\pages\\familyRank\\locale,src\\pages\\familyRule\\locale,src\\pages\\familyRank_1_18\\locale,src\\pages\\familyUserRank\\locale,src\\pages\\familyRule_1_18\\locale,src\\pages\\familyUserRank_1_18\\locale,src\\pages\\fruitByClient\\locale,src\\pages\\fruitEater\\locale,src\\pages\\FruitFrenzyFiesta\\locale,src\\pages\\fruitsWinner\\locale,src\\pages\\fruit_turntable\\locale,src\\pages\\gift_illustration_desc\\locale,src\\pages\\goldTurntable\\locale,src\\pages\\greedy\\locale,src\\pages\\greedyBaby\\locale,src\\pages\\greedyByClient\\locale,src\\pages\\GreedyKing\\locale,src\\pages\\greedyFootball\\locale,src\\pages\\Hallowmas\\locale,src\\pages\\InviteGame\\locale,src\\pages\\independence\\locale,src\\pages\\InviteReward\\locale,src\\pages\\islamicNewYear\\locale,src\\pages\\kingOfLuck\\locale,src\\pages\\KTVDesc\\locale,src\\pages\\loverFestival\\locale,src\\pages\\levelPrivileges\\locale,src\\pages\\luckyRecharge\\locale,src\\pages\\MyGuild\\locale,src\\pages\\myReward\\locale,src\\pages\\newUserGuide\\locale,src\\pages\\not_sincere\\locale,src\\pages\\OnePiece\\locale,src\\pages\\OnePieceTree\\locale,src\\pages\\pearl\\locale,src\\pages\\privacy_policy\\locale,src\\pages\\privilege\\locale,src\\pages\\rebateRecharge\\locale,src\\pages\\recharge\\locale,src\\pages\\rechargeGift\\locale,src\\pages\\recharge_result\\locale,src\\pages\\recharge_result2\\locale,src\\pages\\redEnvelopeResult\\locale,src\\pages\\ResellerList\\locale,src\\pages\\roomActivity\\locale,src\\pages\\reward\\locale,src\\pages\\setUpGuild\\locale,src\\pages\\saw\\locale,src\\pages\\roomActivityRules\\locale,src\\pages\\slots_rank\\locale,src\\pages\\slots_reward\\locale,src\\pages\\slotsLuckyTime\\locale,src\\pages\\strongFamily\\locale,src\\pages\\SuperLuckyStar\\locale,src\\pages\\SuperLuckyStarRanks\\locale,src\\pages\\superStar\\locale,src\\pages\\TopFamily\\locale,src\\pages\\TopCP\\locale,src\\pages\\TopReward\\locale,src\\pages\\vip\\locale,src\\pages\\user_agreement\\locale,src\\pages\\weekGift\\locale,src\\pages\\wealthClass\\locale,src\\pages\\welfare\\locale,src\\pages\\withdraw\\locale,src\\pages\\zootopia\\locale,src\\pages\\YearEndPK\\locale,src\\pages\\YaameSingKing\\locale"
+}

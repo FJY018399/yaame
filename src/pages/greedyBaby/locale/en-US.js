@@ -1,0 +1,17 @@
+export default {
+    "gameRewards": "Game Reward",
+    "overallRanking": "Game Ranking",
+    "rewards": "Reward",
+    "hitRanking": "Hit Ranking",
+    "more": "More",
+    "greedyKing": "Greedy King",
+    "eventStartDate": "1. Based on UTC-0, the duration of the activity is from 01.04 to 01.08.",
+    "rankingDeadline": "2. After the activity time ends, the ranking will no longer change. The prize will be automatically sent to each winner within 2 hours.",
+    "RankingRewards": "3. Rewards are divided into two categories: the top 10 rewards in total ranking and the top 1 reward for each food hit. Please refer to the following chart for details.",
+    "gameRankingRewards": "Game Ranking Rewards",
+    "hitRankingRewards": "Hit Ranking Reward",
+    "totalDays": "7 Days",
+    "gameRules": "Game Rule",
+    "noRanking": "No one is currently on the list",
+    "GiftKey": "Gift",
+};

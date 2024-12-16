@@ -1,0 +1,53 @@
+export default {
+    'title': '顶级家族',
+    rank: '排行',
+    reward: '奖品',
+    joinFamily: '加入家族',
+    createFamily: '创建家族',
+
+    top_1: '第一名',
+    top_2: '第二名',
+    top_3: '第三名',
+    ContributionReach: '贡献达到{0}',
+    receive: '领取',
+    received: '已领取',
+    myContributions: '我的贡献',
+    activityTime: '活动时间',
+
+    rule1: '1.活动开始时间：2023-11-6 00:00:00(UTC0)',
+    rule2: '2.活动结束时间：2023-11-12 24:00:00(UTC0)',  
+    ruleIntro: '活动规则',
+    ruleTask: '任务',
+    ruleLogin: '登录',
+    ruleMicTime: '上麦累计超过30分钟',
+    ruleRoomTime: '进房累计超过1小时',
+    ruleSendGift: '赠送礼物',
+    ruleReceiveGift: '收到礼物',
+    rulePoint: '积分',
+    ruleDailyPlus10: '每人每天+10分',
+    ruleDailyPlus50: '每人每天加50分',
+    ruleDiamondConvert: '1钻石=1分',
+    ruleEndTimeNotice: '3.活动页面将在11月13号24点下架，所有的奖励请在11月13号24点前领取完',
+
+    ruleAwards: '活动奖品',
+    ruleAward1: '奖品1',
+    ruleAward2: '奖品2',
+
+    ruleFamilyReward: '活动结束后，排名前3的家族的族长能够获得家族排名对应的钻石奖励',
+    ruleContributionReward: '给家族带来的贡献达到了50000，100000，250000，500000，1000000，可领取不同的奖励',
+    ruleFinalExplaination: '最终解释权归Yaame所有',
+    ruleGiftInBag: '奖品已放入背包',
+
+    rule: '规则',
+    emptyText: '暂时没有家族上榜',
+
+    day: '{0}天',
+    topAvatar: '冠名头像框',
+    topCar: '冠名座驾',
+    topDress: '冠名礼物',
+
+    'pullingText': '下拉刷新',
+    'loosingText': '松开刷新',
+    'loadingText': '加载中',
+    'successText': '刷新成功',
+};

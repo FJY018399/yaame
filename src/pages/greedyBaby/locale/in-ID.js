@@ -1,0 +1,17 @@
+export default {
+    "gameRewards": "Game Rank",
+    "overallRanking": "Total Rank",
+    "rewards": "Hadiah",
+    "hitRanking": "Hit Rank",
+    "more": "Lebih",
+    "greedyKing": "Greedy King",
+    "eventStartDate": "1. Berdasarkan UTC-0, Durasi event mulai dari 01/04 hingga 01/08",
+    "rankingDeadline": "2. Setelah waktu event berakhir, rank tidak akan berubah. Hadiah akan otomatis dikirim ke setiap pemenang dalam 2 jam.",
+    "RankingRewards": "3. Hadiah dibagi menjadi 2 kategori: Top 10 hadiah di total rank dan 1 hadiah untuk setiap hit makanan. Mohon lihat tabel untuk detailnya.",
+    "gameRankingRewards": "Hadiah Game Rank",
+    "hitRankingRewards": "Hadiah Hit Rank",
+    "totalDays": "7 hari",
+    "gameRules": "Aturan",
+    "noRanking": "Tidak ada orang di Rank",
+    "GiftKey": "Hadiah",
+};

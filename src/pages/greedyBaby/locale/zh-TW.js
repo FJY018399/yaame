@@ -1,0 +1,17 @@
+export default {
+    "gameRewards": "遊戲獎勵",
+    "overallRanking": "總排行",
+    "rewards": "獎勵",
+    "hitRanking": "命中排行",
+    "more": "更多",
+    "greedyKing": "Greedy之王",
+    "eventStartDate": "1.以UTC-0為時間基準，活動持續時間為：01.04～01.08。",
+    "rankingDeadline": "2.時間結束後，排名將不再變化。 2小時內獎品將自動發送給各種獲獎者。",
+    "RankingRewards": "3.獎勵分為兩大類：總排名前10獎勵和各食物命中前1獎勵。 詳情請看如下圖表。",
+    "gameRankingRewards": "遊戲排行獎勵",
+    "hitRankingRewards": "命中排行獎勵",
+    "totalDays": "7天",
+    "gameRules": "遊戲規則",
+    "noRanking": "暫無人上榜",
+    "GiftKey": "禮物",
+};

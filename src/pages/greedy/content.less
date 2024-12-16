@@ -1,0 +1,545 @@
+@import "./imgs.less";
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .back,
+    .rules,
+    .history,
+    .bgm {
+        position: absolute;
+        width: 0.56rem;
+        height: 0.56rem;
+    }
+
+    .back {
+        top: 0.2rem;
+        left: 0.2rem;
+    }
+
+    .rules {
+        top: 0.2rem;
+        right: 0.2rem;
+    }
+
+    .history {
+        right: 0.2rem;
+        top: 1rem;
+    }
+
+    .bgm {
+        right: 0.2rem;
+        top: 1.8rem;
+        animation: playBGMusic 10s linear infinite;
+        animation-play-state: running;
+
+        &.stop {
+            animation-play-state: paused;
+        }
+    }
+
+    @keyframes playBGMusic {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        50% {
+            transform: rotateZ(180deg);
+        }
+
+        100% {
+            transform: rotateZ(360deg);
+        }
+    }
+
+    .cur-round {
+        font-size: 0.22rem;
+        line-height: 1;
+        position: absolute;
+        left: 0.08rem;
+        top: 1.2rem;
+        color: #000;
+        transform: scale(0.8);
+        transform-origin: 0 0;
+    }
+
+    .my-diamond {
+        position: absolute;
+        left: 0;
+        top: 1.49rem;
+        padding: 0.05rem 0 0.08rem;
+        width: 1.7rem;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-left: 0.15rem;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #FF8A00;
+        border: 0.02rem solid #000;
+        border-left: none;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+
+        .my-diamond-title {
+            font-size: 0.16rem;
+            line-height: 1;
+            color: #000;
+            transform: scale(0.9);
+            transform-origin: left center;
+            margin-bottom: 0.05rem;
+        }
+
+        .my-diamond-value {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.24rem;
+            color: #000;
+            line-height: 1;
+
+            .my-diamond-icon {
+                width: 0.24rem;
+                margin-right: 0.03rem;
+            }
+        }
+    }
+
+    .turntable {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 2.2rem;
+        display: flex;
+        justify-content: center;
+        z-index: 11;
+
+        .turntable-box {
+            position: relative;
+            width: 5.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+
+            .group {
+                position: absolute;
+                width: 1.22rem;
+                height: 1.22rem;
+                bottom: -1.3rem;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                box-sizing: border-box;
+                border-radius: 50%;
+
+                &.group1 {
+                    right: -1.12rem;
+                    z-index: -2;
+                }
+
+                &.group2 {
+                    left: -1.12rem;
+                    z-index: -2;
+                }
+
+                &.active {
+                    border: 0.08rem solid #4EFF4E;
+                    z-index: 2;
+                }
+            }
+
+            .prize {
+                position: absolute;
+                width: 1.52rem;
+                height: 1.52rem;
+                flex: none;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                background-image: url(@prize-border);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                z-index: 1;
+
+                // 1.768rem 奖品半径0.76rem
+                &.prize1 {
+                    top: -0.76rem;
+                    left: 1.74rem;
+                    z-index: 2;
+                }
+
+                &.prize2 {
+                    top: calc(-0.76rem + 2.5rem - 1.768rem);
+                    left: calc(1.74rem + 1.768rem);
+                }
+
+                &.prize3 {
+                    top: calc(2.5rem - 0.75rem);
+                    right: -0.76rem;
+                }
+
+                &.prize4 {
+                    bottom: calc(2.5rem - 1.768rem - 0.75rem);
+                    right: calc(2.5rem - 1.768rem - 0.76rem);
+                }
+
+                &.prize5 {
+                    bottom: -0.76rem;
+                    left: 1.74rem;
+                }
+
+                &.prize6 {
+                    bottom: calc(2.5rem - 1.768rem - 0.75rem);
+                    left: calc(2.5rem - 1.768rem - 0.76rem);
+                    z-index: 2;
+                }
+
+                &.prize7 {
+                    top: calc(2.5rem - 0.75rem);
+                    left: -0.76rem;
+                }
+
+                &.prize8 {
+                    top: calc(-0.76rem + 2.5rem - 1.768rem);
+                    left: calc(2.5rem - 1.768rem - 0.76rem);
+                }
+
+                &.disabled {
+                    z-index: -2;
+                }
+
+                .hand {
+                    position: absolute;
+                    width: 0.91rem;
+                    height: 0.92rem;
+                    top: 0.71rem;
+                    right: -0.59rem;
+                    z-index: 1;
+                }
+
+                .times {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 0.18rem;
+                    line-height: 1;
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                &.winner {
+                    background-image: url(@winner-border) !important;
+                }
+
+                .betting-value {
+                    position: absolute;
+                    bottom: -0.06rem;
+                    height: 0.28rem;
+                    padding: 0 0.07rem;
+                    color: #000;
+                    background-color: #4EFF4E;
+                    border: 0.02rem solid #000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0.14rem;
+                    font-size: 0.18rem;
+                    line-height: 1;
+                    box-sizing: border-box;
+                    padding-left: 0.05rem;
+                    z-index: 3;
+
+                    img {
+                        width: 0.19rem;
+                        height: 0.16rem;
+                        margin-right: 0.03rem;
+                    }
+                }
+
+                &.active_1 {
+                    background-image: url(@prize_active_1);
+                }
+
+                &.active_2 {
+                    background-image: url(@prize_active_2);
+
+                    .betting-value {
+                        // color: #c50006;
+                        // background-color: #98f27b;
+                    }
+                }
+
+                &.cursor {
+                    background-image: url(@prize-cursor);
+                    z-index: 2;
+                }
+
+                .prize-icon {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    margin: 0.14rem 0 0.08rem;
+                }
+
+                img {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    position: relative;
+                    z-index: 2;
+
+                    &.winner-border {
+                        width: 1.72rem;
+                        height: 1.62rem;
+                        top: -0.04rem;
+                        left: -0.04rem;
+                        position: absolute;
+                        z-index: 1;
+                        animation: bingo linear 0.34s infinite;
+
+                        @keyframes bingo {
+                            0% {
+                                opacity: 0;
+                            }
+
+                            50% {
+                                opacity: 1;
+                            }
+
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .timer {
+                flex: none;
+                width: 2.44rem;
+                height: 2.44rem;
+                margin: 0.04rem;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                background-image: url(@cat-bg);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .timer-mask {
+                    position: fixed;
+                    width: 100vw;
+                    height: 100vh;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+
+                .cat {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+
+                .light {
+                    width: 2.33rem;
+                    height: 2.33rem;
+                    position: absolute;
+                    top: 0.055rem;
+                    left: 0.055rem;
+                }
+
+                .bingo-light {
+                    animation: bingo linear 0.34s infinite;
+                }
+
+                .time {
+                    font-size: 0.48rem;
+                    color: #fff;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 1.5rem;
+                }
+
+                .time-start {
+                    position: absolute;
+                    font-size: 0.22rem;
+                    color: #fff;
+                    font-weight: bold;
+                    top: 1.3rem;
+                }
+            }
+        }
+    }
+
+    .history-bar {
+        position: absolute;
+        bottom: 2.73rem;
+        width: 4.8rem;
+        height: 0.6rem;
+        border-radius: 0.3rem;
+        border: 0.02rem solid #000;
+        box-sizing: border-box;
+        background: #ADE0F9;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 0.1rem;
+
+        .history-label {
+            position: relative;
+            color: #000;
+            font-size: 0.2rem;
+            line-height: 1;
+
+            // margin-right: 0.2rem;
+            img {
+                width: 0.4rem;
+                height: 0.2rem;
+                position: absolute;
+                right: -0.44rem;
+                bottom: -0.2rem;
+            }
+        }
+
+        .history-item {
+            width: 0.48rem;
+            height: 0.48rem;
+            // margin-right: 0.1rem;
+        }
+    }
+
+    .btns {
+        position: absolute;
+        bottom: 1.32rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .btn {
+            width: 1.02rem;
+            height: 1.02rem;
+            margin: 0 0.07rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            font-size: 0.24rem;
+            line-height: 1;
+            color: #5D001F;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url(@btn);
+
+            img {
+                width: 0.28rem;
+                height: 0.24rem;
+                margin-top: -0.05rem;
+                margin-bottom: 0.04rem;
+            }
+
+            &.active {
+                background-image: url(@btn_active);
+                color: #fff;
+            }
+
+        }
+    }
+
+    .showcase {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: absolute;
+        width: 100%;
+        height: 1.2rem;
+        bottom: 0rem;
+
+        .divider {
+            width: 0.02rem;
+            height: 0.57rem;
+            background-color: #ADE0F9;
+            margin: 0 0.4rem;
+        }
+
+        .today,
+        .champion {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .champion {
+            width: 2rem;
+        }
+
+        .today {
+            width: 2.08rem;
+        }
+
+        .showcase-title {
+            color: #fff;
+            font-size: 0.24rem;
+            line-height: 1;
+            margin-bottom: 0.08rem;
+        }
+
+        .showcase-value {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.24rem;
+            line-height: 1;
+            color: #FEDE2F;
+
+            img {
+                width: 0.24rem;
+                height: 0.21rem;
+                margin-right: 0.04rem;
+            }
+        }
+
+        .champion-avatar {
+            width: 0.6rem;
+            height: 0.6rem;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0.14rem;
+            box-sizing: border-box;
+            border: 0.02rem solid #ADE0F9;
+            border-radius: 50%;
+        }
+
+        .video {
+            width: 0.43rem;
+            height: 0.43rem;
+            margin-left: 0.3rem;
+            margin-right: 0.26rem;
+        }
+    }
+}
